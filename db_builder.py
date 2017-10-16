@@ -21,12 +21,12 @@ c.execute(command)
 
 for row in courses:
 	cmd = "INSERT INTO courses VALUES ('" + row['code'] + "', '" + row['mark'] +  "', '" + row['id'] + "');"
-	//print cmd
+	#print cmd
 	c.execute(cmd)
 
 for row in people:
 	cmd = "INSERT INTO people VALUES ('" + row['name'] + "', '" + row['age'] +  "', '" + row['id'] + "');"
-	//print cmd
+	#print cmd
 	c.execute(cmd)
 
 #==========================================================
